@@ -1,0 +1,1 @@
+This is a minimal Express.js app. The UI is in public/index.html. All changes should be made to that file.

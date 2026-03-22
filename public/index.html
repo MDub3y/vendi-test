@@ -77,7 +77,13 @@
     <span class="badge">✓ Sandbox running</span>
     <div class="counter" id="count">0</div>
     <button onclick="document.getElementById('count').textContent = +document.getElementById('count').textContent + 1">
-      Click me
+      Increment
+      <button onclick="document.getElementById(count).textContent = +document.getElementById(count).textContent - 1">
+        Decrement
+      </button>
+      <button onclick="document.getElementById(count).textContent = 0">
+        Reset
+      </button>
     </button>
   </div>
 </body>
