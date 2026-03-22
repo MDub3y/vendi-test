@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vendi Test App</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 48px;
+      text-align: center;
+      max-width: 480px;
+      width: 100%;
+    }
+    .logo {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #6366f1;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .badge {
+      display: inline-block;
+      background: #312e81;
+      color: #a5b4fc;
+      padding: 6px 16px;
+      border-radius: 99px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .counter {
+      margin-top: 32px;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #818cf8;
+    }
+    button {
+      margin-top: 16px;
+      background: #6366f1;
+      color: white;
+      border: none;
+      padding: 12px 32px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover { background: #4f46e5; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">🚀</div>
+    <h1>Vendi Test App</h1>
+    <p>This app is being modified live by Vendi's AI agent. Ask it to change colors, text, or add new elements.</p>
+    <span class="badge">✓ Sandbox running</span>
+    <div class="counter" id="count">0</div>
+    <button onclick="document.getElementById('count').textContent = +document.getElementById('count').textContent + 1">
+      Click me
+    </button>
+  </div>
+</body>
+</html>

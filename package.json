@@ -1,0 +1,12 @@
+{
+  "name": "vendi-test",
+  "version": "1.0.0",
+  "description": "Minimal test app for Vendi",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
