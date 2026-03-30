@@ -42,6 +42,14 @@
       margin-bottom: 48px;
       font-variant-numeric: tabular-nums;
       transition: transform 0.1s ease;
+      border: 3px solid #eaedf1;
+      border-radius: 16px;
+      padding: 24px;
+      display: inline-block;
+    }
+
+    .counter:hover {
+      border-color: oklch(26.9% 0 0);
     }
 
     .controls {
@@ -104,7 +112,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Vendi</h1>
+    <h1>Pensiv Test</h1>
     <div class="counter" id="count">0</div>
     <div class="controls">
       <button class="btn" onclick="update(-4)" aria-label="Decrement">&minus;</button>
